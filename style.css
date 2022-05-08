@@ -1,0 +1,307 @@
+body{
+ direction: rtl;
+text-align: right;
+font-family: Sans-serif;
+background-color: rgb(255, 255, 255);
+background-image: url("pics/background111.png") ;
+
+
+
+}
+
+
+input[type=text] ,select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    
+    
+    
+  }
+  
+  li {
+    float: right;
+    
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    direction: rtl;
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(247, 173, 123);
+  }
+
+  .active1 {
+    background-color: rgb(255, 255, 255);
+    direction: rtl;
+    font-size: 20px;
+  }
+  
+  .active {
+    background-color: #ee3d3d;
+    direction: rtl;
+    font-size: 20px;
+
+  }
+
+  .main{
+      text-align: center;
+      font-family: 'Akaya Telivigala';
+      font-size: 90px;
+      color: rgb(0, 0, 0);
+  }
+
+
+
+
+
+  .page1{
+    
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+
+  }
+
+
+  .ditails1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    border-radius: 4px;
+    border-color: white
+  }
+
+
+
+
+  /* .pageone{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #ee3d3d;
+    font-size: large;
+    border-radius: 4px;
+    padding: 3px;
+    border-color:  #ee3d3d;
+    
+
+  }
+
+  .pageone1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    border-radius: 4px;
+    padding: 3px;
+    border-color: #ffffff;
+
+  }
+ */
+
+
+  .link{
+    text-decoration: none;
+    display: block;
+    color: rgb(0, 0, 0);
+
+  }
+
+button{
+  background-color: rgb(255, 255, 255);
+}
+  .buttonmain{
+    background-color: #ee3d3d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    border-radius: 6px;
+    padding: 7px;
+    border-color: #ee3d3d;
+    height: 50px;
+    
+    
+    
+}
+
+
+
+.pageOneButton{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+.slowFade {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  height: 300px;
+  width: 500px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-color: #000000;
+}
+.slowFade .slide img {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  background: #000;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  opacity: 0;
+  transform: scale(1.5) rotate(15deg);
+  -webkit-animation: slowFade 32s infinite;
+          animation: slowFade 32s infinite;
+}
+.slowFade .slide:nth-child(3) img {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+.slowFade .slide:nth-child(2) img {
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+}
+.slowFade .slide:nth-child(1) img {
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s;
+}
+@keyframes slowFade {
+  25% {
+      opacity: 1;
+      transform: scale(1) rotate(0);
+  }
+  40% {
+      opacity: 0;
+  }
+}
+@-webkit-keyframes slowFade {
+  25% {
+      opacity: 1;
+      transform: scale(1) rotate(0);
+  }
+  40% {
+      opacity: 0;
+  }
+}
+
+
+
+.submit1{
+
+  background-color: #ee3d3d;
+  font-size: large;
+  border-radius: 4px;
+  padding: 3px;
+  border-color:  #ee3d3d;
+}
+
+.submitT1{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+.space{
+  padding: 15px;
+}
+
+
+img{
+  width: 150px;
+}
+
+
+.menu{
+  text-align: center;
+  
+}
+
+
+.food{
+ 
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+  
+  
+}
+
+.foodIMG{
+  width: 300px;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed; 
+   z-index: 1;
+    top: 0;
+ right: 0;
+  background-color: rgb(243, 243, 243); 
+  overflow-x: hidden; 
+  padding-top: 30px;}
+
+.sidenav a {
+  padding: 8px 12px 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: rgb(247, 132, 132);
+}
+
+
+@media screen and (max-height: 430px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 10px;}
+}
