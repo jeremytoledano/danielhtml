@@ -2,5 +2,5 @@ body{
     direction: ltr;
 }
 table,th, tr, td{
-    border: 1px solid black;
+    border: 10px solid black;
 }
